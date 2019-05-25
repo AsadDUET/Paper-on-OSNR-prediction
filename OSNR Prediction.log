@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.24)  25 MAY 2019 21:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.24)  26 MAY 2019 03:53
 entering extended mode
 **"./OSNR Prediction.tex"
 ("OSNR Prediction.tex"
@@ -521,29 +521,37 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 39.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
-[1{C:/Users/asado/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+("OSNR Prediction.toc")
+\tf@toc=\write3
+\openout3 = `"OSNR Prediction.toc"'.
+
+ ("OSNR Prediction.lof")
+\tf@lof=\write4
+\openout4 = `"OSNR Prediction.lof"'.
+
+ [1{C:/Users/asado/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 109.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 110.
 
 
 ("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-<fig1.png, id=12, 213.04594pt x 277.78781pt>
+) [2]
+<fig1.png, id=17, 213.04594pt x 277.78781pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 214.
+Package pdftex.def Info: fig1.png  used on input line 217.
 (pdftex.def)             Requested size: 213.04541pt x 277.78711pt.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 225.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 228.
+
 
 ("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 225.
-[2]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 228.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -555,32 +563,34 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3 <./fig1.png>] ("OSNR Prediction.aux") ) 
+[3 <./fig1.png>] [4
+
+] ("OSNR Prediction.aux") ) 
 Here is how much of TeX's memory you used:
- 4492 strings out of 492895
- 66511 string characters out of 3123735
- 141045 words of memory out of 3000000
- 8324 multiletter control sequences out of 15000+200000
+ 4500 strings out of 492895
+ 66693 string characters out of 3123735
+ 139045 words of memory out of 3000000
+ 8326 multiletter control sequences out of 15000+200000
  54745 words of font info for 115 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,35p,590b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/asado/AppData/Local/Program
-s/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/asado/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/asado/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/asa
-do/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C
-:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr7.pfb><C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy7.pfb><C:/Users/asado/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/asado/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/asado/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/asado/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/asado/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "OSNR Prediction.pdf" (3 pages, 138508 bytes).
+{C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/enc/dvips/base/8r.enc}<C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/asado/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/asado/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/asado/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Us
+ers/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy7.pfb><C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/urw/courier/ucrr8a.pfb><C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/urw/times/utmb8a.pfb><C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/urw/times/utmbi8a.pfb><C:/Users/asado/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/asado/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "OSNR Prediction.pdf" (4 pages, 139952 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
