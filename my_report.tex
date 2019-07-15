@@ -1,62 +1,206 @@
 \documentclass[12pt]{report}
-
+\usepackage{mathptmx}
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+%\usepackage{lmodern}
 \usepackage[margin=1in,left=1.5in]{geometry}
 \usepackage{graphicx}
 \usepackage{setspace}
 \renewcommand{\baselinestretch}{1} 
-
+\singlespacing
 
 \begin{document}
 	\begin{titlepage}
 		\begin{center}
 			\LARGE {\bfseries {ESTIMATION OF OPTICAL SIGNAL TO NOISE RATIO USING NEURAL NETWORK}}\\[1.5cm]
-			\normalsize 
+			{\normalsize 
 			\textbf{Md.Asadouzzaman}\\
 			Student \# 142067\\
 			\textbf{Dulal Hossain}\\
 			Student \# 142090\\
 			\textbf{Abdul Motin}\\
-			Student \# 142062\\[2cm]
+			Student \# 142062\\[4cm]}
 			\centering{\includegraphics[scale=0.3]{figure/duet_logo.png}}\\[3cm]
-			\Large \bfseries {DHAKA UNIVERSITY OF ENGINEERING \& TECHNOLOGY, GAZIPUR}\\
-			\large \bfseries {DEPARTMENT OF ELECTRICAL AND ELECTRONIC ENGINEERING}\\
-			\textbf{July, 2019}
+			{\fontsize{14}{0} \bfseries {DHAKA UNIVERSITY OF ENGINEERING \& TECHNOLOGY, GAZIPUR}}\\
+			{\fontsize{12}{0} \bfseries {DEPARTMENT OF ELECTRICAL AND ELECTRONIC ENGINEERING}}\\
+			{\fontsize{12}{0} \textbf{July, 2019}}
 		\end{center}
 	\end{titlepage}
-
-\tableofcontents
-\listoffigures
-
-
-
-
-\chapter{Introduction}
-\section{Introduction}
-Video 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. Figure Video 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. Figure
-\begin{figure}[htbp]
-	\centering{\includegraphics[scale=0.6]{fig1.png}}
-	\caption{Comparesn of OSNR Vs Error.}
-	\label{fig1}
-\end{figure}
-\section{section2}
-Video 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. Figure
-
-\subsection*{subsection}
-Video 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer.
-
-
-
-\chapter{Background}
-\section{Introduction}
-Video 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. Figure
-\begin{figure}[htbp]
-	\centering{\includegraphics[scale=0.6]{fig1.png}}
-	\caption{Comparesn of OSNR Vs Error.}
-	\label{fig1}
-\end{figure}
-
-\subsection*{subsection}
-Video 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer.
-
-
+	
+	\tableofcontents
+	\listoffigures
+	
+	
+	
+	
+	\chapter{INTRODUCTION}
+	\section{Introduction}
+	The search for a good signal -to- noise ratio (SNR) estimation technique is motivated by the fact that various algorithms require knowledge of the SNR for optimal performance if the SNR is not constant. The performance of diverse systems may be improved if knowledge of  the SNR is available .Past engineering practice has often used estimation of the total signal plus noise power instead of estimation of the SNR, since it is much easier to measure total power than the ratio of signal power to noise power. However, decreasing hardware costs and increasing demands for pushing system performance to the achievable limits make an investigation of SNR estimation techniques timely. 
+	There are several methods of optical signal to noise ratio estimation. One of the common method is second and fourth order moment calculation method. In this research, we attempt to improve the current method for higher order QAM. Practical investigation shows that second and fourth order method is appropriate for lower order QAM for the purpose of OSNR monitoring. But for higher order QAM when the SNR is varying to a higher value it cannot estimate it properly. To solve this problem an attempt is taken in this literature.
+	
+	
+	The estimation result of second and fourth order method shows good result for QPSK and 4QAM. Instead of taking all the signals from the constellation diagram, only taking certain number of signal from the constellation diagram of 16-QAM, 32-QAM, 64-QAM, 128-QAM and 256-QAM, we can solve the problem. 
+	
+	
+	The estimator under consideration derive the SNR from the baseband, sampled, data-bearing received signal. The data may be known or unknown to the receiver. Those technique which derive the SNR estimates solely from the unknown, information-bearing portion of the received signal are known as “in-service” SNR estimators and are of particular interest since they do not impinge upon the through out of the channel.
+	\section{Related Works }
+	In this section our aim is to take an over view of the different literature abstract in this field. 
+	A quite number of OSNR monitoring technique is developed for satisfactory OSNR monitoring. A deep neural networks (DNN) based OSNR monitoring technique is developed by Takahitu Tanimura and Jens Munseen. 
+	They demonstrate a use of deep neural networks (DNN) for OSNR monitoring with minimum prior knowledge. By using 5-layers DNN trained with 400,000 samples, the DNN successfully estimates OSNR in a 16-GB DP-QPSK system. 
+	The study is performed using principal component analysis-based pattern recognition on asynchronous delay-tap plots and it yields accurate results in the simultaneous monitoring of linear impairments. Another recent work facing the limited scalability, which are based on the prior knowledge of a determined set of signals, where a deep neural network (DNN), trained with raw data asynchronously sampled by a coherent receiver is proposed for OSNR monitoring. Results show that OSNR is accurately estimated.
+	
+	Md. Saifuddin Faruk,Yojiro Mori and Kazuro Kikuchi proposed a novel method of in –band estimation of optical signal-to-noise ratio (OSNR) using a digital coherent receiver, where  OSNR is determined from second and fourth order statistical moments of equalized signals in any modulation format. Their proposed method is especially important in recently-developed Nyquist wavelength-division multiplexed (WDM) systems and / or re-configurable optical-add/ drop-multiplexed (ROADM) networks, because in these systems and networks, we cannot apply the conventional OSNR estimation methods best on optical-spectrum measurement of the in band signal and the out of band noise .Effectiveness of the proposed method is validated with computer simulations of nyquist-WDM systems and ROADM networks using 25-Gbaud quadrature phase shift keying (QPSK) and 16-QAM formats.
+	
+	
+	The performance of several signal-to-noise ratio (SNR) estimation techniques reported in a literature by David R. Pauluzzi and Norman C. Beaulieu, are compared to identify the “best” estimator. The SNR estimators are investigated by the computer simulation of baseband signals in real additive white Gaussian noise (AWGN) and baseband 8-PSK signals in complex AWGN. The mean square error is used as a measure of performance. In addition to comparing the relative 
+	3 
+	
+	performances, the absolute levels of performance are also established; the simulation performances are compared to a published Cramer-Rao bound (CRB) for real AWGN and a CRB for complex AWGN that is derived there. Some known estimator structures are modified to perform better on the channel of interest. Estimator structures for both real and complex channels are examined. 
+	As optical fiber communication has become very popular nowadays, OSNR monitoring has become a must at the receiver side. A vast scope of development is available in this field.
+	\section{Objectives }
+	a) To investigate the performance of conventional second and fourth order moment method. b) To develop an algorithm to improve the performance of conventional second and fourth order method.
+	\chapter{BACKGROUND THEORY}
+	\section{Introduction}
+	The optical fiber communication is the communication in which signal is transmitted or received through the fiber where the communicating frequency are converted into light in optical form by optical source i.e. LED, LASER with the velocity of light propagates through the fiber.
+	\section{Historical background of optical fiber communication}
+	1880- Alexander Graham Bell repeated the x-on of Speech using a Light beam. 
+	1954- Harold Hopkins and Narinder Singh Kapany showed that rolled fiber glass allowed light to be transmitted. Initially it was considered that the light can traverse in only straight medium. 
+	1960- With inventor of the study LASER an intense coherent light source operating at just one wave length mode available by T.H. Maimon. 
+	
+	
+	1963- B. Urdles of several hundred glass fibers were used for small scale illumination. The attenuation of this fiber is greater than 100dB/km. So their use as X-on medium for optical communication was not considered. 
+	
+	
+	1966- C.K.Kad \& Hockman postulated the use of glass fibers as optical communication wave guides. The cause of high attenuation is intrinsic \& extrinsic loss. The glass fiber attenuation had to be reduced in less 20 dB/km. 
+	1970-works at the coring glass works produced a fiber with the required attenuation. After improves attenuation. Now the attenuation is 0.1 dB/km.
+	\section{Basic block diagram of optical fiber}
+	\begin{figure}[htbp]
+		\centering{\includegraphics[scale=0.6]{fig1.png}}
+		\caption{Comparesn of OSNR Vs Error.}
+		\label{fig1}
+	\end{figure}
+	
+	Fig.2.1 shows basic block diagram of optical fiber communication. In this case the information source provides an electrical signal to a transmitter comprising an electrical stage which drives an optical source to give modulation of the light wave carrier. The optical source which provides the electrical–optical conversion may be either a semiconductor laser or light-emitting diode (LED). The transmission medium consists of an optical fiber cable and the receiver consists of an optical detector which drives a further electrical stage and hence provides demodulation of the optical carrier. Photo diodes (p–n, p–i–n or avalanche) and, in some instances, photo transistors and photo conductors are utilized for the detection of the optical signal and the optical–electrical conversion. Thus there is a requirement for electrical interfacing at either end of the optical link and at present the signal processing is usually performed electrically. The optical carrier may be modulated using either an analog or digital information signal. In the system shown in Figure 2.1 analog modulation involves the variation of the light emitted from the optical source in a continuous manner. With digital modulation, however, discrete changes in the light intensity are obtained (i.e. on–off pulses). Although often simpler to implement, analog modulation with an optical fiber communication system is less efficient, requiring a far higher signal-to-noise ratio at the receiver than digital modulation. Also, the linearity needed for analog modulation is not always provided by semiconductor optical sources, especially at high modulation frequencies. For these reasons, analog optical fiber communication links are generally limited to shorter distances and lower bandwidth operation than digital links.
+	\section{Advantage of optical fiber communication }
+	(a) Enormous potential band width (b) Small size and weight (c) Electrical isolation (d) Immunity to interference and cross talk (e) Signal security (f) Low transmission loss (g) Ruggedness and flexibility (h) System reliability and ease of maintenance (i)  Potential low cost 
+	\section{Construction of optical fiber}
+	\begin{figure}[htbp]
+		\centering{\includegraphics[scale=0.6]{fig1.png}}
+		\caption{Comparesn of OSNR Vs Error.}
+		\label{fig1}
+	\end{figure}
+	\subsection*{Core}
+	This is the physical medium that transports optical data signals from an attached light source to a receiving device. The core is a single continuous strand of glass or plastic that’s measured in microns ($\mu$) by the size of its outer diameter. The larger the core, the more light the cable can carry. All fiber optic cable is sized according to its core’s outer diameter. The three multimode sizes most commonly available are 50, 62.5, and 100 microns. Single-mode cores are generally less than 9 microns.
+	\subsection*{Cladding}
+	This is the thin layer that surrounds the fibre core and serves as a boundary that contains the light waves and causes the refraction, enabling data to travel throughout the length of the fibre segment. 
+	\subsection*{Coating}
+	This is a layer of plastic that surrounds the core and cladding to reinforce and protect the fibre core. Coatings are measured in microns and can range from 250 to 900 microns
+	\subsection*{ Strengthening fiber } 
+	These components help protect the core against crushing forces and excessive tension during installation. The materials can range from Kevlar® to wire strands to gel-filled sleeves. 
+	\subsection*{Cable jacket}
+	This is the outer layer of any cable. Most fibre optic cables have an orange jacket, although some types can have black or yellow jackets
+	\section{Ray Transmission Theory}
+	This is the outer layer of any cable. Most fibre optic cables have an orange jacket, although some types can have black or yellow jackets. 2.6 Ray Transmission Theory 
+	The propagation of light within an optical fiber utilizing the ray theory model it is necessary to take account of the refractive index of the dielectric medium. The refractive index of a medium is defined as the ratio of the velocity of light in a vacuum to the velocity of light in the medium. A ray of light travels more slowly in an optically dense medium than in one that is less dense, and the refractive index gives a measure of this effect. When a ray is incident on the interface between two dielectrics of differing refractive indices. It may be observed that the ray approaching the interface is propagating in a dielectric of refractive index n1 and is at an angle $\varphi$ 1 to the normal at the surface of the interface. If the dielectric on the other side of the interface has a refractive index n2 which is less than n1, then the refraction is such that the ray path in this lower index medium is at an angle $\varphi$ 2 to the normal, where $\vartheta$ 2 is greater than $\vartheta$ 1. The angles of incidence $\vartheta$ 1 and refraction $\vartheta$ 2 are related to each other and to the refractive indices of the dielectrics by Snell’s law of refraction which states that:
+	\begin{figure}[htbp]
+		\centering{\includegraphics[scale=0.6]{fig1.png}}
+		\caption{Comparesn of OSNR Vs Error.}
+		\label{fig1}
+	\end{figure}
+	\section{Some Important Terms in Optical Fiber Communication }
+	\subsection*{ Acceptance Angle}
+	The maximum angle to the axis at which light may enter the fiber in order to be propagated is called acceptance angle. 
+	Any rays which are incident into the fiber core at an angle greater than $\varphi$a will be transmitted to core-cladding interface at an angle less than $\varphi$c,and will be totally internally reflected. 
+	In fig. the incident ray B at an angle then $\varphi$a is refracted into the cladding and loss by radiation
+	\begin{figure}[htbp]
+		\centering{\includegraphics[scale=0.6]{fig1.png}}
+		\caption{Comparesn of OSNR Vs Error.}
+		\label{fig1}
+	\end{figure}
+	
+	\subsection*{Numerical aperture }
+	In optics, the numerical aperture (NA) of an optical system is a dimensionless number that characterizes the range of angles over which the system can accept or emit light. By incorporating index of refraction in its definition, NA has the property that it is constant for a beam as it goes from one material to another, provided there is no refractive power at the interface. The exact definition of the term varies slightly between different areas of optics. Numerical aperture is commonly used in microscopy to describe the acceptance cone of an objective (and hence its light-gathering ability and resolution), and in fiber optics, in which it describes the range of angles within which light that is incident on the fiber will be transmitted along it. 
+	
+	
+	\section{Attenuation}
+	Every transmission line introduce some loss of signal power which is known is attenuation. Attenuation is the decrease in light power during light propagation along an optical fiber. Attenuation or Loss caused by violation of the condition of total internal reflection when launching light into a fiber. But practically speaking, fiber optic communications technology never considers this loss as a component of total attenuation because, without total internal reflection optical fiber simply does not work as a communication conduit. Attenuation can be categorized into three types- 
+	\begin{figure}[htbp]
+		\centering{\includegraphics[scale=0.6]{fig1.png}}
+		\caption{Comparesn of OSNR Vs Error.}
+		\label{fig1}
+	\end{figure}
+	\subsection{Bending loss}
+	There are two types of bending loss occurring in the optical fiber which fails to achieve total internal reflection. 
+	\subsubsection{Macro-bending loss}
+	Macro-bending happens when the fiber is bend into a large radius of curvature relative to the fiber diameter (large bends).These bends becomes a great source of power loss when the radius of curvature is less than several centimeters. At the bending point the incidence angle is smaller than critical angle for which some portion of the light ray is refracted. The result is failure to achieve total internal reflection in the bend fiber. Hence the power of the light arriving at its destination will be less than the power of the light emitted into the fiber from a light source. The propagation of light of a straight fiber and a bend fiber is shown in the figure. 
+	\begin{figure}[htbp]
+		\centering{\includegraphics[scale=0.6]{fig1.png}}
+		\caption{Comparesn of OSNR Vs Error.}
+		\label{fig1}
+	\end{figure}
+	
+	\subsubsection{Micro-bending Loss}
+	Micro-bending losses are caused by small imperfections in the fiber core. It is caused by manufacturing process. When the light beam meets these imperfections, changes its direction. The light beam which travel initially at the critical propagation angle, at this point it will be reflected and will change the angle of propagation. The result is that the condition of total internal reflection is not attained and portion of the beam will be refracted. As a result some portion of light lost in the fiber during propagation shown in figure.
+	\begin{figure}[htbp]
+		\centering{\includegraphics[scale=0.6]{fig1.png}}
+		\caption{Comparesn of OSNR Vs Error.}
+		\label{fig1}
+	\end{figure}
+	
+	\subsection{ Scattering loss}
+	The propagation of a light is based on total internal reflection of light wave. Rough and irregular surfaces can cause light ray to be reflected in random direction. Scattering losses occurs when a wave interacts with a particle in a way that removes in the directional propagating wave and transfers it to other directions. The light is note absorb, just send in another direction. There are two main types of scattering.\\ 
+	\begin{center}
+		$\Rightarrow$Linear Scattering.\\
+		$\Rightarrow$ Nonlinear Scattering.\\
+	\end{center}
+	
+	For linear scattering, the amount of light power that is transferred from a wave is proportional to the power in the wave. It is characterized by heavy no change in frequency in the scattered wave. On the other hand, nonlinear scattering is accompanied by a frequency shift of the scatter light. Nonlinear scattering is caused by high values of electric field within the fiber (modest to high amount of optical power). Nonlinear scattering cause significant power to be scattered in the forward, backward, or sideways directions
+	
+	\subsection{Absorption loss}
+	If an incoming photon has such a frequency that its energy (Ep=hf) is equal to the energy gap ($\bigtriangleup$E) of the material, this photon will be absorbed by the material. $\bigtriangleup$E is the energy difference between the two energy levels. Light travels down an optical fiber and encounter a material whose energy level gap is exactly equal to the energy of this photons. Obviously, this impact we lead to light absorption, resulting in a loss of light power. This is the basic mechanism of the 
+	13 
+	
+	third major reason for attenuation in optical fibers. Material absorption is a loss mechanism related to the material composition and the fabrication process for the fiber, which result in the dissipation of some of the transmitted optical power as heat in the wave guide. The absorption of the light may be intrinsic or extrinsic.\\
+	$\Rightarrow$ Intrinsic absorption caused by the interaction with one or more of the major components of the glass.\\ $\Rightarrow$ Extrinsic absorption caused by impurities within the glass\\     
+	\begin{figure}[htbp]
+		\centering{\includegraphics[scale=0.6]{fig1.png}}
+		\caption{Comparesn of OSNR Vs Error.}
+		\label{fig1}
+	\end{figure}
+	\section{}
+	\section{}
+	\section{}
+	\section{}
+	\section{}
+	\section{}
+	\section{}
+	\section{}
+	\section{}
+	
+	\begin{figure}[htbp]
+		\centering{\includegraphics[scale=0.6]{fig1.png}}
+		\caption{Comparesn of OSNR Vs Error.}
+		\label{fig1}
+	\end{figure}
+	\section{section2}
+	Video 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. Figure
+	
+	\subsection*{subsection}
+	Video 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer.
+	
+	
+	
+	\chapter{Background}
+	\section{Introduction}
+	Video 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. Figure
+	\begin{figure}[htbp]
+		\centering{\includegraphics[scale=0.6]{fig1.png}}
+		\caption{Comparesn of OSNR Vs Error.}
+		\label{fig1}
+	\end{figure}
+	
+	\subsection*{subsection}
+	Video 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer.
+	
+	
 \end{document}
