@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.24)  11 JUL 2019 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.24)  11 JUL 2019 14:21
 entering extended mode
 **./my_report.tex
 (my_report.tex
@@ -112,13 +112,13 @@ LaTeX Font Info:    ... okay on input line 9.
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: includefoot 
+* modes: 
 * h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
 * v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=433.62001pt
-* \textheight=620.43001pt
+* \textheight=650.43001pt
 * \oddsidemargin=36.13501pt
 * \evensidemargin=36.13501pt
 * \topmargin=-37.0pt
@@ -212,7 +212,7 @@ G,.JBIG2,.JB2,.eps]
 File: figure/duet_logo.png Graphic file (type png)
 <use figure/duet_logo.png>
 Package pdftex.def Info: figure/duet_logo.png  used on input line 20.
-(pdftex.def)             Requested size: 164.77267pt x 160.72562pt.
+(pdftex.def)             Requested size: 123.58264pt x 120.54729pt.
  [1
 
 {C:/Users/asado/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figure/du
@@ -240,45 +240,37 @@ Chapter 1.
 <fig1.png, id=16, 389.95688pt x 310.15875pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 34.
+Package pdftex.def Info: fig1.png  used on input line 37.
 (pdftex.def)             Requested size: 233.97592pt x 186.09668pt.
 [3
 
- <./fig1.png>] [4]
+] [4 <./fig1.png>]
 Chapter 2.
-[5
-
-]
-Chapter 3.
-[6
-
-]
-Chapter 4.
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 61.
+Package pdftex.def Info: fig1.png  used on input line 53.
 (pdftex.def)             Requested size: 233.97592pt x 186.09668pt.
-[7
+[5
 
-] (my_report.aux)
+] [6] (my_report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1994 strings out of 492895
- 30059 string characters out of 3123735
- 98144 words of memory out of 3000000
- 5896 multiletter control sequences out of 15000+200000
- 8500 words of font info for 30 fonts, out of 3000000 for 9000
+ 1996 strings out of 492895
+ 30094 string characters out of 3123735
+ 100120 words of memory out of 3000000
+ 5898 multiletter control sequences out of 15000+200000
+ 9106 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,32p,289b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,7n,32p,1640b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmr12.pfb>
-Output written on my_report.pdf (8 pages, 136979 bytes).
+Output written on my_report.pdf (7 pages, 138500 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
