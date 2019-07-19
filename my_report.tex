@@ -5,29 +5,104 @@
 \usepackage{setspace}
 \usepackage{mathtools}
 \usepackage{amsmath}
+\usepackage[section]{placeins}
+\usepackage{multicol}
+\usepackage{acronym}
 \renewcommand{\baselinestretch}{1} 
 \singlespacing
 
 \begin{document}
 	\begin{titlepage}
 		\begin{center}
-			\LARGE {\bfseries {ESTIMATION OF OPTICAL SIGNAL TO NOISE RATIO USING NEURAL NETWORK}}\\[1.5cm]
+			\LARGE {\bfseries {ESTIMATION OF OPTICAL SIGNAL TO NOISE RATIO USING NEURAL NETWORK}}\\
+			\vspace{2cm}
 			{\normalsize 
 			\textbf{Md.Asadouzzaman}\\
 			Student \# 142067\\
 			\textbf{Dulal Hossain}\\
 			Student \# 142090\\
 			\textbf{Abdul Motin}\\
-			Student \# 142062\\[4cm]}
-			\centering{\includegraphics[scale=0.3]{figure/duet_logo.png}}\\[3cm]
+			Student \# 142062\\}
+		\vspace{4cm}
+			\centering{\includegraphics[scale=0.3]{figure/duet_logo.png}}\\
+			\vspace{4cm}
 			{\fontsize{14}{0} \bfseries {DHAKA UNIVERSITY OF ENGINEERING \& TECHNOLOGY, GAZIPUR}}\\
 			{\fontsize{12}{0} \bfseries {DEPARTMENT OF ELECTRICAL AND ELECTRONIC ENGINEERING}}\\
 			{\fontsize{12}{0} \textbf{July, 2019}}
 		\end{center}
 	\end{titlepage}
-	
-	\tableofcontents
+	\begin{titlepage}
+		\begin{center}
+			\LARGE {\bfseries {ESTIMATION OF OPTICAL SIGNAL TO NOISE RATIO USING NEURAL NETWORK}}\\
+			\vspace{5cm}
+			{\normalsize 
+				\textbf{Md.Asadouzzaman}\\
+				Student \# 142067\\
+				\textbf{Dulal Hossain}\\
+				Student \# 142090\\
+				\textbf{Abdul Motin}\\
+				Student \# 142062\\}
+			\vspace{10cm}
+			{\fontsize{12}{0} \bfseries {DEPARTMENT OF ELECTRICAL AND ELECTRONIC ENGINEERING}}\\
+			{\fontsize{13}{0} \bfseries {DHAKA UNIVERSITY OF ENGINEERING \& TECHNOLOGY, GAZIPUR}}\\
+			{\fontsize{12}{0} \textbf{July, 2019}}
+		\end{center}
+	\end{titlepage}
+	\begin{titlepage}
+	\begin{center}
+		\LARGE {\bfseries {ESTIMATION OF OPTICAL SIGNAL TO NOISE RATIO USING NEURAL NETWORK}}\\
+		\vspace{1cm}
+		{\fontsize{12}{0} \bfseries {A THESIS}}\\
+		\vspace{0.5cm}
+		{\normalsize  {Submitted in partial fulfillment of the requirements for the award of the degree\\of}}\\
+		{\fontsize{12}{0} \bfseries {BACHELOR OF SCIENCE}}\\
+		{\fontsize{12}{0} \bfseries {IN}}\\
+		{\fontsize{12}{0} \bfseries {ELECTRICAL AND ELECTRONIC ENGINEERING}}\\
+		{\fontsize{12}{0} \bfseries {By}}\\
+		\vspace{0.5cm}
+		{\normalsize 
+		\textbf{Md.Asadouzzaman}\\
+		Student \# 142067\\
+		Registration\# \\
+		Session 2017-2018\\}
+		\begin{multicols}{2}
+			\normalsize 
+				\textbf{Md.Asadouzzaman}\\
+				Student \# 142067\\
+				Registration\# \\
+				Session 2017-2018\\
+				\textbf{Md.Asadouzzaman}\\
+				Student \# 142067\\
+				Registration\# \\
+				Session 2017-2018\\
+		\end{multicols}
+		\vspace{1cm}
+		{\normalsize 
+			Under supervision of\\\vspace{1cm}
+			\rule{5cm}{.1cm}\\
+			\textbf Dr. Md. Saifuddin Faruk\\
+			Professor\\}
+		\vspace{1.5cm}
+		{\fontsize{12}{0} \bfseries {DEPARTMENT OF ELECTRICAL AND ELECTRONIC ENGINEERING}}\\
+		{\fontsize{13}{0} \bfseries {DHAKA UNIVERSITY OF ENGINEERING \& TECHNOLOGY, GAZIPUR}}\\
+		{\fontsize{12}{0} \textbf{July, 2019}}
+	\end{center}
+\end{titlepage}
+\begin{center}
+	\section*{ACKNOWLEDGMENT}
+	\pagebreak
+	\section*{ABSTRACT}
+	\pagebreak
 	\listoffigures
+	\pagebreak
+	\section*{ACRONYMS}
+\end{center}
+\begin{acronym}
+	\acro{OSNR}{Optical Signal to Noise Ratio}
+	\acro{ANN}{Artificial Neural Network}
+\end{acronym}
+	\tableofcontents
+	
 	
 	
 	
@@ -36,8 +111,7 @@
 	\section{Introduction}
 	The search for a good signal -to- noise ratio (SNR) estimation technique is motivated by the fact that various algorithms require knowledge of the SNR for optimal performance if the SNR is not constant. The performance of diverse systems may be improved if knowledge of  the SNR is available .Past engineering practice has often used estimation of the total signal plus noise power instead of estimation of the SNR, since it is much easier to measure total power than the ratio of signal power to noise power. However, decreasing hardware costs and increasing demands for pushing system performance to the achievable limits make an investigation of SNR estimation techniques timely. 
 	There are several methods of optical signal to noise ratio estimation. One of the common method is second and fourth order moment calculation method. In this research, we attempt to improve the current method for higher order QAM. Practical investigation shows that second and fourth order method is appropriate for lower order QAM for the purpose of OSNR monitoring. But for higher order QAM when the SNR is varying to a higher value it cannot estimate it properly. To solve this problem an attempt is taken in this literature.
-	
-	
+
 	The estimation result of second and fourth order method shows good result for QPSK and 4QAM. Instead of taking all the signals from the constellation diagram, only taking certain number of signal from the constellation diagram of 16-QAM, 32-QAM, 64-QAM, 128-QAM and 256-QAM, we can solve the problem. 
 	
 	
@@ -120,7 +194,7 @@
 		\label{fig1}
 	\end{figure}
 	\section{Some Important Terms in Optical Fiber Communication }
-	\subsection*{ Acceptance Angle}
+	\subsection{ Acceptance Angle}
 	The maximum angle to the axis at which light may enter the fiber in order to be propagated is called acceptance angle. 
 	Any rays which are incident into the fiber core at an angle greater than $\varphi$a will be transmitted to core-cladding interface at an angle less than $\varphi$c,and will be totally internally reflected. 
 	In fig. the incident ray B at an angle then $\varphi$a is refracted into the cladding and loss by radiation
@@ -130,7 +204,7 @@
 		\label{fig1}
 	\end{figure}
 	
-	\subsection*{Numerical aperture }
+	\subsection{Numerical aperture }
 	In optics, the numerical aperture (NA) of an optical system is a dimensionless number that characterizes the range of angles over which the system can accept or emit light. By incorporating index of refraction in its definition, NA has the property that it is constant for a beam as it goes from one material to another, provided there is no refractive power at the interface. The exact definition of the term varies slightly between different areas of optics. Numerical aperture is commonly used in microscopy to describe the acceptance cone of an objective (and hence its light-gathering ability and resolution), and in fiber optics, in which it describes the range of angles within which light that is incident on the fiber will be transmitted along it. 
 	
 	
@@ -188,8 +262,8 @@
 	\end{figure}
 
 
-\chapter{ARTIFICIAL NEURAL NETWORK (ANN)}
-\section{Introduction}
+
+\section{Artificial Neural Network(ANN)}
 The study of the human brain is thousands of years old. With the advent of modern electronics, it was only natural to try to harness this thinking process. The first step toward artificial neural networks came in 1943 when Warren McCulloch, a neurophysiologist, and a young mathematician, Walter Pitts, wrote a paper on how neurons might work. They modeled a simple neural network with electrical circuits. Neural networks, with their remarkable ability to derive meaning from complicated or imprecise data, can be used to extract patterns and detect trends that are too complex to be noticed by either humans or other computer techniques. A trained neural network can be thought of as an "expert" in the category of information it has been given to analyses. Other advantages include:
 \begin{itemize}
 	\item Adaptive learning: An ability to learn how to do tasks based on the data given for training or initial experience.
@@ -205,9 +279,10 @@ Artificial Neural Network are computers whose architecture is modeled after the 
 	\caption{Example of Artificial Neural Network}
 	\label{ANN}
 \end{figure}
-\section{Conclusion}
-In this chapter we discussed about the Artificial neural network, working of ANN. Also training phases of an ANN. There are various advantages of ANN over conventional approaches. Depending on the nature of the application and the strength of the internal data patterns you can generally expect a network to train quite well. This applies to problems where the relationships may be quite dynamic or non-linear. ANNs provide an analytical alternative to conventional techniques which are often limited by strict assumptions of normality, linearity, variable independence etc. Because an ANN can capture many kinds of relationships it allows the user to quickly and relatively easily model phenomena which may have been very difficult or impossible to explain otherwise. Today, neural networks discussions are occurring everywhere. Their promise seems very bright as nature itself is the proof that this kind of thing works. Yet, its future, indeed the very key to the whole technology, lies in hardware development. Currently most neural network development is simply proving that the principal works.
-
+\section{Advantages of ANN}
+There are various advantages of ANN over conventional approaches. Depending on the nature of the application and the strength of the internal data patterns you can generally expect a network to train quite well. This applies to problems where the relationships may be quite dynamic or non-linear. ANNs provide an analytical alternative to conventional techniques which are often limited by strict assumptions of normality, linearity, variable independence etc. Because an ANN can capture many kinds of relationships it allows the user to quickly and relatively easily model phenomena which may have been very difficult or impossible to explain otherwise.
+\section{Conclution}
+In this chapter we discussed about background information of optical fiber communication, the artificial neural network(ANN), working of ANN also training phases of an ANN.
 
 \chapter{PROPOSED OSNR MONITORING TECHNIQUE}
 \section{Introduction}
@@ -338,7 +413,7 @@ SNR=\frac{\sqrt{2M_2^2 -M_4}}{M_2\sqrt{0.68}-\sqrt{2M_2^2 -M_4}}
 \end{align}
 
 \section{Problems of Conventional Method}
-Conventional second and fourth order moments method can estimate OSNR with low error for 4-QAM signal for all value of SNR.
+Conventional second and fourth order moments method can estimate OSNR with low error for 4-QAM signal for all value of SNR. This shown in Figure \ref{fig:4-qam-error}.
 \begin{figure}[htbp]
 	\centering{\includegraphics[scale=0.9]{figure/four-qam-error.jpg}}
 	\caption{Set SNR verses Monitoring Error curve for 4-QAM}
@@ -347,12 +422,12 @@ Conventional second and fourth order moments method can estimate OSNR with low e
 
 Estimation of OSNR by $M_2 M_4$ method for high OSNR provides large error for higher order QAM, if the OSNR increases to a higher value. A graph of varying OSNR and estimated error is shown in Figure \ref{fig:standardm2m4error}.
 \begin{figure}[htbp]
-	\centering{\includegraphics[scale=0.8]{figure/16qamstandardM2M4error.eps}}
+	\centering{\includegraphics[scale=0.6]{figure/16qamstandardM2M4error.eps}}
 	\caption{Set SNR verses Error curve of 16-QAM by conventional second and fourth order moment method.}
 	\label{fig:standardm2m4error}
 \end{figure}
 
-It is clear from Figure \ref{fig:4-qam-error} that conventional second and fourth order method of estimation of OSNR can estimate low OSNR easily. For high SNR the corresponding error is also high. In this literature our main aim is to develop an algorithm such that conventional method can be used to estimate OSNR so that it can estimate SNR correctly at the receiver end.
+It is clear from Figure \ref{fig:standardm2m4error} that conventional second and fourth order method of estimation of OSNR can estimate low OSNR easily. For high SNR the corresponding error is high. In this literature our main aim is to develop a method such that higher SNR can estimated correctly at the receiver end keeping the advantages of conventional $M_2 M_4$ method.
 
 \section{Principle of proposed technique}
 From the above discussion it is evident that second and fourth order moments method is not suitable for high SNR estimation, but it is good for 4-QAM. A modification in the OSNR monitoring technique and using the formula of 4-QAM of current second and fourth order method this problem can be solved.
@@ -361,7 +436,32 @@ From the above discussion it is evident that second and fourth order moments met
 	\caption{Constellation diagram of 16-QAM.}
 	\label{fig:qam16-constallation}
 \end{figure}
-Constellation diagram of 16-QAM is shown in Figure \ref{fig:qam16-constallation} It is seen that there are three circle in the constellation diagram and at each circle the magnitude of the constituents signal is the same. The first and third circle is identical except magnitude. By comparing the square of the magnitude we can choose the first and third circle only. At the middle point of two consecutive circle taking as threshold and comparing the incoming data we can easily extract the data of first and third circle. Now, by dividing the magnitude of third circle by a suitable value and cascading them together we can make a constellation which is so far like a constellation diagram of QPSK or 4-QAM.
-As second and fourth order moment method shows excellent result for 4-QAM and QPSK, we can apply the formula of 4-QAM and QPSK to calculate optical fiber signal to noise ratio(OSNR). But, this process is defective too. Because the first circle has the least radius and the third circle has large radius. The first circle is highly susceptible to noise whereas the third circle is least susceptible to noise. If we use the first circle for OSNR monitoring by using the formula of 4-QAM, it will under estimate OSNR. Similarly, if we use the third ring then it will over estimate OSNR. Now only the middle ring is available. The middle ring has average magnitude, average power and the probability of the signal is half. Hence we can use the third ring. The performance of middle ring is given below.
+Constellation diagram of 16-QAM is shown in Figure \ref{fig:qam16-constallation} It is seen that there are three circle in the constellation diagram. By comparing the square of the magnitude we can choose the circles. At the middle point of two consecutive circle taking as threshold and comparing the incoming data we can easily extract the data of  middle circle. If we calculate variance from the magnitude of the extracted data and plot it against SNR as shown in Figure \ref{fig:mmsVsSNR}. Clear variation in the value with change in SNR is visible. This can help to estimate SNR. But this data is not consistent in the lower SNR.
+\begin{figure}[htbp]
+	\centering{\includegraphics[scale=0.4]{figure/mmsVsSNR.eps}}
+	\caption{Set SNR verses variance of magnitude curve of extracted data from middle circle of 16-QAM.}
+	\label{fig:mmsVsSNR}
+\end{figure}
+
+ On the other hand 2nd order momentum($M_2$) of all data verses SNR plot shows clear variation for lower SNR but not for higher SNR as shown in Figure \ref{fig:m2sVsSNR}.  
+\begin{figure}[htbp]
+	\centering{\includegraphics[scale=0.4]{figure/m2sVsSNR.eps}}
+	\caption{Set SNR verses 2nd order momentum curve of all data of 16-QAM.}
+	\label{fig:m2sVsSNR}
+\end{figure}
+
+Combination of both information can give us better estimation of OSNR. But driving equation using this results is not easy specially for higher order modulation. So our aim is to train a neural network with this data to estimate the OSNR.
+\section{Conclusion}
+
+
+\chapter{SIMULATION RESULTS AND DISCUSSION}
+\section{Introduction}
+\section{Preparing Data}
+\section{Training Model}
+\section{Conclusion}
+
+
+\chapter{Conclusion}
+
 
 \end{document}
