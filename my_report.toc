@@ -16,15 +16,12 @@
 \contentsline {subsubsection}{Micro-bending Loss}{10}% 
 \contentsline {subsection}{\numberline {2.8.2} Scattering loss}{11}% 
 \contentsline {subsection}{\numberline {2.8.3}Absorption loss}{12}% 
-\contentsline {section}{\numberline {2.9}}{13}% 
-\contentsline {section}{\numberline {2.10}}{13}% 
-\contentsline {section}{\numberline {2.11}}{13}% 
-\contentsline {section}{\numberline {2.12}}{13}% 
-\contentsline {section}{\numberline {2.13}}{13}% 
-\contentsline {section}{\numberline {2.14}}{13}% 
-\contentsline {section}{\numberline {2.15}}{13}% 
-\contentsline {section}{\numberline {2.16}}{13}% 
-\contentsline {section}{\numberline {2.17}}{13}% 
-\contentsline {section}{\numberline {2.18}section2}{13}% 
-\contentsline {chapter}{\numberline {3}Background}{15}% 
-\contentsline {section}{\numberline {3.1}Introduction}{15}% 
+\contentsline {chapter}{\numberline {3}ARTIFICIAL NEURAL NETWORK (ANN)}{14}% 
+\contentsline {section}{\numberline {3.1}Introduction}{14}% 
+\contentsline {section}{\numberline {3.2}What is ANN}{14}% 
+\contentsline {section}{\numberline {3.3}Conclusion}{15}% 
+\contentsline {chapter}{\numberline {4}PROPOSED OSNR MONITORING TECHNIQUE}{17}% 
+\contentsline {section}{\numberline {4.1}Introduction}{17}% 
+\contentsline {section}{\numberline {4.2}Conventional Second and Fourth Order Moments Method}{17}% 
+\contentsline {section}{\numberline {4.3}Problems of Conventional Method}{21}% 
+\contentsline {section}{\numberline {4.4}Principle of proposed technique}{22}% 

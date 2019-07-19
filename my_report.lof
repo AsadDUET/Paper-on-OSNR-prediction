@@ -10,4 +10,8 @@
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Comparesn of OSNR Vs Error.}}{12}% 
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Comparesn of OSNR Vs Error.}}{13}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Comparesn of OSNR Vs Error.}}{16}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Example of Artificial Neural Network}}{15}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Set SNR verses Monitoring Error curve for 4-QAM}}{21}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Set SNR verses Error curve of 16-QAM by conventional second and fourth order moment method.}}{22}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Constellation diagram of 16-QAM.}}{22}% 

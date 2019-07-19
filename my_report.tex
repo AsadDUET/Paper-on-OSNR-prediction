@@ -1,11 +1,10 @@
 \documentclass[12pt]{report}
 \usepackage{mathptmx}
-%\usepackage[utf8]{inputenc}
-%\usepackage[T1]{fontenc}
-%\usepackage{lmodern}
 \usepackage[margin=1in,left=1.5in]{geometry}
 \usepackage{graphicx}
 \usepackage{setspace}
+\usepackage{mathtools}
+\usepackage{amsmath}
 \renewcommand{\baselinestretch}{1} 
 \singlespacing
 
@@ -59,6 +58,8 @@
 	As optical fiber communication has become very popular nowadays, OSNR monitoring has become a must at the receiver side. A vast scope of development is available in this field.
 	\section{Objectives }
 	a) To investigate the performance of conventional second and fourth order moment method. b) To develop an algorithm to improve the performance of conventional second and fourth order method.
+	
+	
 	\chapter{BACKGROUND THEORY}
 	\section{Introduction}
 	The optical fiber communication is the communication in which signal is transmitted or received through the fiber where the communicating frequency are converted into light in optical form by optical source i.e. LED, LASER with the velocity of light propagates through the fiber.
@@ -77,12 +78,23 @@
 	\begin{figure}[htbp]
 		\centering{\includegraphics[scale=0.6]{fig1.png}}
 		\caption{Comparesn of OSNR Vs Error.}
-		\label{fig1}
+		\label{xyz}
 	\end{figure}
 	
-	Fig.2.1 shows basic block diagram of optical fiber communication. In this case the information source provides an electrical signal to a transmitter comprising an electrical stage which drives an optical source to give modulation of the light wave carrier. The optical source which provides the electrical–optical conversion may be either a semiconductor laser or light-emitting diode (LED). The transmission medium consists of an optical fiber cable and the receiver consists of an optical detector which drives a further electrical stage and hence provides demodulation of the optical carrier. Photo diodes (p–n, p–i–n or avalanche) and, in some instances, photo transistors and photo conductors are utilized for the detection of the optical signal and the optical–electrical conversion. Thus there is a requirement for electrical interfacing at either end of the optical link and at present the signal processing is usually performed electrically. The optical carrier may be modulated using either an analog or digital information signal. In the system shown in Figure 2.1 analog modulation involves the variation of the light emitted from the optical source in a continuous manner. With digital modulation, however, discrete changes in the light intensity are obtained (i.e. on–off pulses). Although often simpler to implement, analog modulation with an optical fiber communication system is less efficient, requiring a far higher signal-to-noise ratio at the receiver than digital modulation. Also, the linearity needed for analog modulation is not always provided by semiconductor optical sources, especially at high modulation frequencies. For these reasons, analog optical fiber communication links are generally limited to shorter distances and lower bandwidth operation than digital links.
+	Figure \ref{xyz} shows basic block diagram of optical fiber communication. In this case the information source provides an electrical signal to a transmitter comprising an electrical stage which drives an optical source to give modulation of the light wave carrier. The optical source which provides the electrical–optical conversion may be either a semiconductor laser or light-emitting diode (LED). The transmission medium consists of an optical fiber cable and the receiver consists of an optical detector which drives a further electrical stage and hence provides demodulation of the optical carrier. Photo diodes (p–n, p–i–n or avalanche) and, in some instances, photo transistors and photo conductors are utilized for the detection of the optical signal and the optical–electrical conversion. Thus there is a requirement for electrical interfacing at either end of the optical link and at present the signal processing is usually performed electrically. The optical carrier may be modulated using either an analog or digital information signal. In the system shown in Figure 2.1 analog modulation involves the variation of the light emitted from the optical source in a continuous manner. With digital modulation, however, discrete changes in the light intensity are obtained (i.e. on–off pulses). Although often simpler to implement, analog modulation with an optical fiber communication system is less efficient, requiring a far higher signal-to-noise ratio at the receiver than digital modulation. Also, the linearity needed for analog modulation is not always provided by semiconductor optical sources, especially at high modulation frequencies. For these reasons, analog optical fiber communication links are generally limited to shorter distances and lower bandwidth operation than digital links.
 	\section{Advantage of optical fiber communication }
-	(a) Enormous potential band width (b) Small size and weight (c) Electrical isolation (d) Immunity to interference and cross talk (e) Signal security (f) Low transmission loss (g) Ruggedness and flexibility (h) System reliability and ease of maintenance (i)  Potential low cost 
+	\begin{enumerate}
+			\item Enormous potential band width 
+			\item  Small size and weight 
+			\item  Electrical isolation 
+			\item  Immunity to interference and cross talk 
+			\item  Signal security 
+			\item  Low transmission loss 
+			\item  Ruggedness and flexibility 
+			\item  System reliability and ease of maintenance 
+			\item  Potential low cost
+	\end{enumerate}
+ 
 	\section{Construction of optical fiber}
 	\begin{figure}[htbp]
 		\centering{\includegraphics[scale=0.6]{fig1.png}}
@@ -157,50 +169,199 @@
 	For linear scattering, the amount of light power that is transferred from a wave is proportional to the power in the wave. It is characterized by heavy no change in frequency in the scattered wave. On the other hand, nonlinear scattering is accompanied by a frequency shift of the scatter light. Nonlinear scattering is caused by high values of electric field within the fiber (modest to high amount of optical power). Nonlinear scattering cause significant power to be scattered in the forward, backward, or sideways directions
 	
 	\subsection{Absorption loss}
-	If an incoming photon has such a frequency that its energy (Ep=hf) is equal to the energy gap ($\bigtriangleup$E) of the material, this photon will be absorbed by the material. $\bigtriangleup$E is the energy difference between the two energy levels. Light travels down an optical fiber and encounter a material whose energy level gap is exactly equal to the energy of this photons. Obviously, this impact we lead to light absorption, resulting in a loss of light power. This is the basic mechanism of the 
-	13 
-	
-	third major reason for attenuation in optical fibers. Material absorption is a loss mechanism related to the material composition and the fabrication process for the fiber, which result in the dissipation of some of the transmitted optical power as heat in the wave guide. The absorption of the light may be intrinsic or extrinsic.\\
-	$\Rightarrow$ Intrinsic absorption caused by the interaction with one or more of the major components of the glass.\\ $\Rightarrow$ Extrinsic absorption caused by impurities within the glass\\     
+	If an incoming photon has such a frequency that its energy (Ep=hf) is equal to the energy gap ($\bigtriangleup$E) of the material, this photon will be absorbed by the material. $\bigtriangleup$E is the energy difference between the two energy levels. Light travels down an optical fiber and encounter a material whose energy level gap is exactly equal to the energy of this photons. Obviously, this impact we lead to light absorption, resulting in a loss of light power. This is the basic mechanism of the third major reason for attenuation in optical fibers. Material absorption is a loss mechanism related to the material composition and the fabrication process for the fiber, which result in the dissipation of some of the transmitted optical power as heat in the wave guide. The absorption of the light may be intrinsic or extrinsic.
+	\begin{itemize}
+			\item Intrinsic absorption caused by the interaction with one or more of the major components of the glass.
+			
+			\item Extrinsic absorption caused by impurities within the glass.
+	\end{itemize}
+    
 	\begin{figure}[htbp]
 		\centering{\includegraphics[scale=0.6]{fig1.png}}
 		\caption{Comparesn of OSNR Vs Error.}
 		\label{fig1}
 	\end{figure}
-	\section{}
-	\section{}
-	\section{}
-	\section{}
-	\section{}
-	\section{}
-	\section{}
-	\section{}
-	\section{}
-	
 	\begin{figure}[htbp]
 		\centering{\includegraphics[scale=0.6]{fig1.png}}
 		\caption{Comparesn of OSNR Vs Error.}
 		\label{fig1}
 	\end{figure}
-	\section{section2}
-	Video 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. Figure
-	
-	\subsection*{subsection}
-	Video 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer.
-	
-	
-	
-	\chapter{Background}
-	\section{Introduction}
-	Video 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. Figure
-	\begin{figure}[htbp]
-		\centering{\includegraphics[scale=0.6]{fig1.png}}
-		\caption{Comparesn of OSNR Vs Error.}
-		\label{fig1}
-	\end{figure}
-	
-	\subsection*{subsection}
-	Video 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer. FigureVideo 2 of 12 on Latex tutorials: How to get sections formatted, how to adjust margins, and how to tinker with the header and footer. At the end of this video you should be able to control your page margins and place whatever you'd like in your header and footer.
-	
-	
+
+
+\chapter{ARTIFICIAL NEURAL NETWORK (ANN)}
+\section{Introduction}
+The study of the human brain is thousands of years old. With the advent of modern electronics, it was only natural to try to harness this thinking process. The first step toward artificial neural networks came in 1943 when Warren McCulloch, a neurophysiologist, and a young mathematician, Walter Pitts, wrote a paper on how neurons might work. They modeled a simple neural network with electrical circuits. Neural networks, with their remarkable ability to derive meaning from complicated or imprecise data, can be used to extract patterns and detect trends that are too complex to be noticed by either humans or other computer techniques. A trained neural network can be thought of as an "expert" in the category of information it has been given to analyses. Other advantages include:
+\begin{itemize}
+	\item Adaptive learning: An ability to learn how to do tasks based on the data given for training or initial experience.
+	\item Self-Organization: An ANN can create its own organization or representation of the information it receives during learning time.
+	\item Real Time Operation: ANN computations may be carried out in parallel, and special hardware devices are being designed and manufactured which take advantage of this capability.
+	\item Fault Tolerance via Redundant Information Coding: Partial destruction of a network leads to the corresponding degradation of performance. However, some network capabilities may be retained even with major network damage.
+\end{itemize}
+
+\section{What is ANN}
+Artificial Neural Network are computers whose architecture is modeled after the brain. They typically consist of hundreds of simple processing units which are wired together in a complex communication network. Each unit or node is a simplified model of real neuron which sends off a new signal or fires if it receives a sufficiently strong Input signal from the other nodes to which it is connected.Traditionally neural network was used to refer as network or circuit of biological neurons, but modern usage of the term often refers to ANN. ANN is mathematical model or computational model, an information processing paradigm i.e. inspired by the way biological nervous system, such as brain information system. ANN is made up of interconnecting artificial neurons which are programmed like to mimic the properties of m biological neurons. These neurons working in unison to solve specific problems. ANN is configured for solving artificial intelligence problems without creating a model of real biological system. ANN is used for speech recognition, image analysis, adaptive control etc. These applications are done through a learning process, like learning in biological system, which involves the adjustment between neurons through synaptic connection. Same happen in the ANN. Figure \ref{ANN} shows basic structure of Artificial Neural Network.
+\begin{figure}[htbp]
+	\centering{\includegraphics[scale=0.6]{figure/ANN.eps}}
+	\caption{Example of Artificial Neural Network}
+	\label{ANN}
+\end{figure}
+\section{Conclusion}
+In this chapter we discussed about the Artificial neural network, working of ANN. Also training phases of an ANN. There are various advantages of ANN over conventional approaches. Depending on the nature of the application and the strength of the internal data patterns you can generally expect a network to train quite well. This applies to problems where the relationships may be quite dynamic or non-linear. ANNs provide an analytical alternative to conventional techniques which are often limited by strict assumptions of normality, linearity, variable independence etc. Because an ANN can capture many kinds of relationships it allows the user to quickly and relatively easily model phenomena which may have been very difficult or impossible to explain otherwise. Today, neural networks discussions are occurring everywhere. Their promise seems very bright as nature itself is the proof that this kind of thing works. Yet, its future, indeed the very key to the whole technology, lies in hardware development. Currently most neural network development is simply proving that the principal works.
+
+
+\chapter{PROPOSED OSNR MONITORING TECHNIQUE}
+\section{Introduction}
+The quality of the optical signal is generally assed by means of optical signal to noise ratio (OSNR) which is defined as the ratio of optical signal power to the ASE noise power in a reference bandwidth. OSNR is one of the key parameter which enables fault management of optical transmission system and networks. The OSNR limits is one of the key parameters that determine how far a wavelength can travel prior to regeneration. There are several methods of OSNR monitoring such as
+\begin{itemize}
+	\item Split-Symbol Moments Estimator (SSME)
+	\item Maximum-likelihood (ML) Estimator for SNR.
+	\item Squared signal to noise variance estimator (SNV).
+	\item Second and fourth order moments estimator.
+	\item Signal to variance ratio estimator.
+\end{itemize}
+Among them Second and fourth order moments method is of our interest. Advantages of second and fourth order moments methods are:
+a) The performance of such OSNR estimation is inherently insensitive to the phase noise of transmitter LASERs and local oscillators, since it involves only the measurement of second and fourth order moments only.
+b) It is not affected by linear fiber transmission impairments such as chromatic dispersion (CD) and polarization mode dispersion (PMD), because OSNR estimation is done after adaptive equalization.
+\section{Conventional Second and Fourth Order Moments Method}
+Coherent optical receiver employing phase and polarization diversities and typical DSP stages for data recovery in polarization-division multiplexed transmission systems .For OSNR monitoring, we use the signal at the adaptive equalizer output. The digital filters used in the equalizer can compensate for a large amount of linear fiber transmission impairments without any notable penalty and the signal at this stage is mainly contaminated by ASE noise. Therefore, the output of the adaptive equalizer is the earliest stage of the DSP chain where the OSNR estimation is done. In addition, DSP stages for frequency-offset compensation and carrier-phase estimation can be placed after the OSNR estimation stage. The output signal from the adaptive filter can be approximated as
+\begin{align}
+Yn \approx \sqrt{C}a_n e^{j\theta_n}+\sqrt{N}W_n
+\end{align}
+Where $a_n$ is the M-PSK or M-QAM symbol amplitude, C the signal-power scale factor, N the noise-power scale factor, $W_n$ the ASE noise, $\theta_n$ the phase noise stemming from phase fluctuation of a transmitter laser and a local oscillator, and n the number of samples,
+
+The second order moment $M_2$ of $Y_n$ can be expressed as
+\begin{equation}\label{eq:2}
+\begin{aligned}
+M_2 &=E\{y_n y_n^*\}\\
+&=CE\{a_n e^{j\theta_n} a_n^* e^{-j\theta_n}\}+\sqrt{CN}E\{a_n e^{j\theta_n} W_n\}+NE\{w_n w_n^*\}\\
+&=CE\{|a_n|^2\}+\sqrt{CN}(E\{a_n e^{j\theta_n} W_n^*\}+E\{a_n^* e^{-j\theta_n} W_n\})+NE\{w_n w_n^*\}
+\end{aligned}
+\end{equation}
+Where E \{-\} represents the ensemble average and the superscript (-)* denotes the complex conjugate. Since the signal and the noise obey a mutually-independent complex-valued stochastic process, we have
+\begin{align}
+E\{a_n e^{j\theta_n} W_n^*\}=0\\
+E\{a_n^* e^{-j\theta_n} W_n\}=0
+\end{align}
+We also assume that the signal $a_n$ and the noise $W_n$ are normalized to have an equal variance given by, 
+\begin{align}
+\{E\{|a_n|^2\}\}=\{E\{|W_n|^2\}\}=v
+\end{align}
+Thus, we can rewrite Eq.\ref{eq:2} as
+\begin{align}
+\label{eq:6}
+M_2 = v(C+N)
+\end{align}
+And the signal to noise ratio (CNR) is expressed as
+\begin{align}\label{eq:7}
+SNR=\frac{C}{N}
+\end{align}
+On the other hand, the fourth-order moment $M_4$ of $y_n$ can be written as
+\begin{equation}\label{eq:8}
+\begin{aligned}
+M_4&=E\{(y_n y_n^*)^2\}\\
+&=C^2E\{(a_n a_n^*)^2\}+2C\sqrt{CN}(E+E\{a_n a_n^* a_n^* e^{-j\theta_n}W_n\})+CN(E\{(a_n e^{j\theta_n W_n^*})^2\}\\&+4E\{a_n a_n^* W_n W_n^*\}+E\{(a_n^* e^{-j\theta_n}W_n)^2\})+2C\sqrt{CN}(E\{W_n W_n^* a_n e^{j\theta_n}W_n^*\}\\&+E\{W_n W_n^* a_n e^{-j\theta_n }W_n^*\})+N^2E\{(W_n W_n^*)^2\}
+\end{aligned}
+\end{equation}
+In Eq.\ref{eq:8}, since
+\begin{align}
+E\{a_n\}=E\{a_n^*\}=E\{W_n\}=E\{W_n^*\}=0\\
+E\{a_n a_n^* a_n e^{j\theta_n} W_n^*\}=0\\
+E\{W_n W_n^* a_n e^{j\theta_n} W_n^*\}=0\\
+E\{a_n a_n^* a_n^* e^{-j\theta_n} W_n\}=0\\
+E\{W_n W_n^* a_n^* e^{-j\theta_n} W_n\}=0
+\end{align}
+Also note that the real part $a_{nl}$ and the imaginary part $a_{nQ}$ of $a_n$ are uncorrelated in M-ary PSK and M-ary QAM signals when $M\geq 4$. Then we find that
+\begin{align}
+E\{(a_n e^{j\theta_n}W_n^*)^2\}=E\{a_n^2\}. E\{(e^{j\theta_n} W_n^*)^2\}=0
+\end{align}
+Because
+\begin{align}
+E\{a_n^2\}=E\{a_{nl}^2-a_{nQ}^2+2ja_{nl} a_{nQ}\}=0
+\end{align}
+Similarly, we have
+\begin{align}
+E\{(a_n e^{-j\theta_n}W_n^*)^2\}=E\{(W_n e^{-j\theta_n})^2\}.E\{(a_n^*)^2\}=0
+\end{align}
+In addition it is evident that
+\begin{align}
+E\{(a_n a_n^*)^2\}=E\{|a_n|^4\}\\
+E\{(w_n w_n^*)^2\}=E\{|w_n|^4\}\\
+E\{a_n a_n^* w_n w_n^*\}=E\{|a_n|^2 |w_n|^2\}
+\end{align}
+Taking all of these equations into consideration, we can simplify Eq.\ref{eq:8} as
+\begin{equation}\label{eq:20}
+	\begin{aligned}
+		M_4&=C^2E\{|a_n|^4\}+4CNE\{|a_n|^2 |w_n|^2\}+N^2E\{|w_n|^4\}\\
+		&=k_a v^2 C^2 +4v^2CN+k_w v^2N^2
+	\end{aligned}
+\end{equation}
+Where
+\begin{align}
+	k_a=\frac{E\{|a_n|^4\}}{E\{|a_n|^2\}^2}\\
+	k_w=\frac{E\{|w_n|^4\}}{E\{|w_n|^2\}^2}
+\end{align}
+Are kurtoses of the signal and the noise respectively, The Gaussian distribution of ASE noise yields $k_w=2$.
+
+Solving Equations \ref{eq:6} and \ref{eq:20}, we obtain
+\begin{align}\label{eq:23}
+	C=\frac{1}{v} \sqrt{\frac{2M_2^2 -M_4}{2-k_a}}
+	\end{align}
+\begin{align}\label{eq:24}
+	N=\frac{1}{v}\{M_2- \sqrt{\frac{2M_2^2 -M_4}{2-k_a}}\}
+\end{align}
+Therefore, determining $M_2$ and $M_4$ from exponential results and using Eqs. \ref{eq:7}, \ref{eq:23} and \ref{eq:24}, we can estimate CNR as
+\begin{align}\label{eq:snr}
+	SNR=\frac{\sqrt{2M_2^2 -M_4}}{M_2\sqrt{2-k_a}-\sqrt{2M_2^2 -M_4}}
+\end{align}
+In a practical system, we can calculate second and fourth order moments from a received data block of L symbols as
+\begin{align}\label{eq:m2}
+M_2\approx\frac{1}{L}\sum_{n=0}^{L-1}|y_n|^2
+\end{align}
+\begin{align}\label{eq:m4}
+M_4\approx\frac{1}{L}\sum_{n=0}^{L-1}|y_n|^4
+\end{align}
+
+
+Respectively, As shown in Eqs. \ref{eq:m2} and \ref{eq:m4}, measuring second- and fourth order moments does not include any effect of the phase noise and thus the proposed scheme operates phase insensitively.
+
+Equation \ref{eq:snr} is a generalized equation to calculate SNR of any arbitrary modulation format. The value of $k_a$ is dependent on the modulation format; for example, in the case of QPSK, we have $k_a=1$ since,$a_n\in\{1,-1,j,-j\}$
+
+Then SNR is expressed as
+\begin{align}
+	SNR_{QPSK}=\frac{\sqrt{2M_2^2 -M_4}}{M_2-\sqrt{2M_2^2 -M_4}}
+\end{align}
+On the other hand, for the 16-QAM signal, since $a_n\in\{\pm 1 \pm i, \pm 1 \pm 3i, \pm 3 \pm i, \pm 3 \pm 3i\}, k_a=1.32$
+
+Then, SNR is given as
+\begin{align}\label{eq:snr16qam}
+SNR=\frac{\sqrt{2M_2^2 -M_4}}{M_2\sqrt{0.68}-\sqrt{2M_2^2 -M_4}}
+\end{align}
+
+\section{Problems of Conventional Method}
+Conventional second and fourth order moments method can estimate OSNR with low error for 4-QAM signal for all value of SNR.
+\begin{figure}[htbp]
+	\centering{\includegraphics[scale=0.9]{figure/four-qam-error.jpg}}
+	\caption{Set SNR verses Monitoring Error curve for 4-QAM}
+	\label{fig:4-qam-error}
+\end{figure}
+
+Estimation of OSNR by $M_2 M_4$ method for high OSNR provides large error for higher order QAM, if the OSNR increases to a higher value. A graph of varying OSNR and estimated error is shown in Figure \ref{fig:standardm2m4error}.
+\begin{figure}[htbp]
+	\centering{\includegraphics[scale=0.8]{figure/16qamstandardM2M4error.eps}}
+	\caption{Set SNR verses Error curve of 16-QAM by conventional second and fourth order moment method.}
+	\label{fig:standardm2m4error}
+\end{figure}
+
+It is clear from Figure \ref{fig:4-qam-error} that conventional second and fourth order method of estimation of OSNR can estimate low OSNR easily. For high SNR the corresponding error is also high. In this literature our main aim is to develop an algorithm such that conventional method can be used to estimate OSNR so that it can estimate SNR correctly at the receiver end.
+
+\section{Principle of proposed technique}
+From the above discussion it is evident that second and fourth order moments method is not suitable for high SNR estimation, but it is good for 4-QAM. A modification in the OSNR monitoring technique and using the formula of 4-QAM of current second and fourth order method this problem can be solved.
+\begin{figure}[htbp]
+	\centering{\includegraphics[scale=0.45]{figure/qam16_constallation.eps}}
+	\caption{Constellation diagram of 16-QAM.}
+	\label{fig:qam16-constallation}
+\end{figure}
+Constellation diagram of 16-QAM is shown in Figure \ref{fig:qam16-constallation} It is seen that there are three circle in the constellation diagram and at each circle the magnitude of the constituents signal is the same. The first and third circle is identical except magnitude. By comparing the square of the magnitude we can choose the first and third circle only. At the middle point of two consecutive circle taking as threshold and comparing the incoming data we can easily extract the data of first and third circle. Now, by dividing the magnitude of third circle by a suitable value and cascading them together we can make a constellation which is so far like a constellation diagram of QPSK or 4-QAM.
+As second and fourth order moment method shows excellent result for 4-QAM and QPSK, we can apply the formula of 4-QAM and QPSK to calculate optical fiber signal to noise ratio(OSNR). But, this process is defective too. Because the first circle has the least radius and the third circle has large radius. The first circle is highly susceptible to noise whereas the third circle is least susceptible to noise. If we use the first circle for OSNR monitoring by using the formula of 4-QAM, it will under estimate OSNR. Similarly, if we use the third ring then it will over estimate OSNR. Now only the middle ring is available. The middle ring has average magnitude, average power and the probability of the signal is half. Hence we can use the third ring. The performance of middle ring is given below.
+
 \end{document}
