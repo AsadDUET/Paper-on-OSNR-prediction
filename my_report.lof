@@ -1,17 +1,30 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Comparesn of OSNR Vs Error.}}{6}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Comparesn of OSNR Vs Error.}}{7}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Comparesn of OSNR Vs Error.}}{8}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Comparesn of OSNR Vs Error.}}{9}% 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Comparesn of OSNR Vs Error.}}{10}% 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Comparesn of OSNR Vs Error.}}{11}% 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Comparesn of OSNR Vs Error.}}{11}% 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Comparesn of OSNR Vs Error.}}{12}% 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Comparesn of OSNR Vs Error.}}{13}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Basic block diagram of optical fiber communication}}{5}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Basic construction of optical fiber}}{6}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Light ray incident on a high to low refractive index interface (e.g glass air): (a) refraction; (b) the limiting case of refraction showing the critical ray at and angle $\phi _c$ (c) total internal reflection where $\phi > \phi _c$}}{7}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Launching light into an optical fiber}}{8}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Different types of attenuation.}}{9}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Macro-bending loss in optical fiber.}}{10}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Macro-bending loss in optical fiber.}}{10}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Scattering loss in fiber Optic}}{11}% 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Wavelength versus attenuation curve.}}{12}% 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Example of Artificial Neural Network}}{13}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Example of Artificial Neural Network}}{15}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Set SNR versus Monitoring Error curve for 4-QAM}}{19}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Set SNR versus Error curve of 16-QAM by conventional second and fourth order moment method.}}{19}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Constellation diagram of 16-QAM.}}{20}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Set SNR versus variance of magnitude curve of extracted data from middle circle of 16-QAM.}}{21}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Set SNR versus 2nd order momentum curve of all data of 16-QAM.}}{21}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Set SNR verses Monitoring Error curve for 4-QAM}}{21}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Set SNR verses Error curve of 16-QAM by conventional second and fourth order moment method.}}{22}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Constellation diagram of 16-QAM.}}{22}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Schematic of simulation setup to verify the proposed method.}}{22}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Structure of Neural Network used in the simulation.}}{23}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Set SNR versus estimation error result using proposed method for 16-QAM.}}{25}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Regression curve of proposed method for 16-QAM. }}{26}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Error Comparison of proposed method and $M_2 M_4$ method for 16-QAM. }}{26}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Regression Comparison of proposed method and $M_2 M_4$ method for 16-QAM. }}{27}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Set SNR versus estimation error result using proposed method for 64-QAM. }}{27}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Regression curve of proposed method for 16-QAM. }}{28}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Error Comparison of proposed method and $M_2 M_4$ method for 64-QAM. }}{28}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Regression Comparison of proposed method and $M_2 M_4$ method for 64-QAM. }}{28}% 
+\addvspace {10\p@ }

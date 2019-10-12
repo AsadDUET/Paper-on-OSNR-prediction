@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.24)  19 JUL 2019 14:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.24)  12 OCT 2019 19:11
 entering extended mode
 **./my_report.tex
 (my_report.tex
@@ -221,45 +221,141 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen128
 \l_MT_above_shortintertext_sep=\dimen129
 \l_MT_below_shortintertext_sep=\dimen130
-) (my_report.aux
-
-LaTeX Warning: Label `fig1' multiply defined.
-
-
-LaTeX Warning: Label `fig1' multiply defined.
-
-
-LaTeX Warning: Label `fig1' multiply defined.
-
-
-LaTeX Warning: Label `fig1' multiply defined.
-
-
-LaTeX Warning: Label `fig1' multiply defined.
-
-
-LaTeX Warning: Label `fig1' multiply defined.
-
-
-LaTeX Warning: Label `fig1' multiply defined.
-
 )
+("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/placeins\placeins.
+sty"
+Package: placeins 2005/04/18  v 2.2
+)
+("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.sty
+"
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
+\c@tracingmulticols=\count108
+\mult@box=\box29
+\multicol@leftmargin=\dimen131
+\c@unbalance=\count109
+\c@collectmore=\count110
+\doublecol@number=\count111
+\multicoltolerance=\count112
+\multicolpretolerance=\count113
+\full@width=\dimen132
+\page@free=\dimen133
+\premulticols=\dimen134
+\postmulticols=\dimen135
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box30
+\last@line=\box31
+\maxbalancingoverflow=\dimen136
+\mult@rightbox=\box32
+\mult@grightbox=\box33
+\mult@gfirstbox=\box34
+\mult@firstbox=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\c@columnbadness=\count114
+\c@finalcolumnbadness=\count115
+\last@try=\dimen137
+\multicolovershoot=\dimen138
+\multicolundershoot=\dimen139
+\mult@nat@firstbox=\box53
+\colbreak@box=\box54
+\mc@col@check@num=\count116
+)
+("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/acronym\acronym.st
+y"
+Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
+
+("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bigfoot\suffix.sty
+"
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xstring\xstring.st
+y"
+("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xstring\xstring.
+tex"
+\integerpart=\count117
+\decimalpart=\count118
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+\AC@clearlist=\toks21
+)
+("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen140
+\ar@mcellbox=\box55
+\extrarowheight=\dimen141
+\NC@list=\toks22
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box56
+)
+("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.st
+y"
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\atbegsh
+i.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
+rr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))
+("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
+.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)) (my_report.aux)
 \openout1 = `my_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 11.
- ("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 22.
+
+("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -271,14 +367,14 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* v-part:(T,H,B)=(50.58878pt, 693.79243pt, 50.58878pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=433.62001pt
-* \textheight=650.43001pt
+* \textheight=693.79243pt
 * \oddsidemargin=36.13501pt
 * \evensidemargin=36.13501pt
-* \topmargin=-37.0pt
+* \topmargin=-58.68121pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -300,26 +396,22 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
-\scratchdimen=\dimen131
-\scratchbox=\box29
-\nofMPsegments=\count109
-\nofMParguments=\count110
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count111
-\MPscratchDim=\dimen132
-\MPnumerator=\count112
-\makeMPintoPDFobject=\count113
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count119
+\scratchdimen=\dimen142
+\scratchbox=\box57
+\nofMPsegments=\count120
+\nofMParguments=\count121
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count122
+\MPscratchDim=\dimen143
+\MPnumerator=\count123
+\makeMPintoPDFobject=\count124
+\everyMPtoPDFconversion=\toks24
 )
 ("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
 base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
-rr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
 ("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
 y"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
@@ -327,11 +419,7 @@ Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 ("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefin
 ekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
-.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
+))
 ("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
 .sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
@@ -365,137 +453,277 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
+\AtBeginShipoutBox=\box58
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 <figure/duet_logo.png, id=1, 411.939pt x 401.8212pt>
 File: figure/duet_logo.png Graphic file (type png)
 <use figure/duet_logo.png>
-Package pdftex.def Info: figure/duet_logo.png  used on input line 22.
+Package pdftex.def Info: figure/duet_logo.png  used on input line 35.
 (pdftex.def)             Requested size: 123.58264pt x 120.54729pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
  [1
 
 {C:/Users/asado/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figure/du
-et_logo.png>]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
- (my_report.toc
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 2.
+et_logo.png>] [1] [1]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 102.
 
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+[1]
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 12
+8.
 
 ("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ztmcm.fd
 "
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 2.
-
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 12
+8.
 
 ("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omlztmcm.fd
 "
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 2.
-
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 12
+8.
 
 ("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsztmcm.fd
 "
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 2.
-
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 12
+8.
 
 ("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omxztmcm.fd
 "
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-)
-\tf@toc=\write3
-\openout3 = `my_report.toc'.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
+ [2]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+ (my_report.lof [3
 
- [1
+])
+\tf@lof=\write3
+\openout3 = `my_report.lof'.
 
-] (my_report.lof)
-\tf@lof=\write4
-\openout4 = `my_report.lof'.
+ [4] [5] (my_report.toc [6
 
- [2
+])
+\tf@toc=\write4
+\openout4 = `my_report.toc'.
+
+ [7]
+Chapter 1.
+[1
 
 ]
-Chapter 1.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
-[3
+Overfull \hbox (1.6514pt too wide) in paragraph at lines 177--178
+\OT1/ptm/m/n/12 division mul-ti-plexed (WDM) sys-tems and$\OML/ztmcm/m/it/12 =$
+\OT1/ptm/m/n/12 or re-configurable optical-add$\OML/ztmcm/m/it/12 =$\OT1/ptm/m/
+n/12 drop-multiplexed
+ []
 
-] [4]
+[2] [3]
 Chapter 2.
-<fig1.png, id=22, 389.95688pt x 310.15875pt>
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 79.
-(pdftex.def)             Requested size: 233.97592pt x 186.09668pt.
-[5
+Package epstopdf Info: Source file: <figure/Optical+Fiber+Communications.eps>
+(epstopdf)                    date: 2019-10-11 12:25:11
+(epstopdf)                    size: 942470 bytes
+(epstopdf)             Output file: <figure/Optical+Fiber+Communications-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2019-10-11 12:25:44
+(epstopdf)                    size: 16054 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/Optical+Fiber+Commun
+ications-eps-converted-to.pdf figure/Optical+Fiber+Communications.eps>
+(epstopdf)             \includegraphics on input line 199.
+Package epstopdf Info: Output file is already uptodate.
 
-] [6 <./fig1.png>]
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 100.
-(pdftex.def)             Requested size: 233.97592pt x 186.09668pt.
+
+pdfTeX warning: pdflatex.exe (file ./figure/Optical+Fiber+Communications-eps-co
+nverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
+.5> allowed
+<figure/Optical+Fiber+Communications-eps-converted-to.pdf, id=51, 598.235pt x 2
+07.77625pt>
+File: figure/Optical+Fiber+Communications-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use figure/Optical+Fiber+Communications-eps-converted-to.pdf>
+Package pdftex.def Info: figure/Optical+Fiber+Communications-eps-converted-to.p
+df  used on input line 199.
+(pdftex.def)             Requested size: 418.76164pt x 145.44237pt.
+[4
+
+]
+<figure/of_cable.jpg, id=55, 305.81621pt x 72.27pt>
+File: figure/of_cable.jpg Graphic file (type jpg)
+<use figure/of_cable.jpg>
+Package pdftex.def Info: figure/of_cable.jpg  used on input line 220.
+(pdftex.def)             Requested size: 244.65329pt x 57.81606pt.
+ [5 <./figure/Optical+Fiber+Communications-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 104.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 111.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 224.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 231.
 
 
 ("C:\Users\asado\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 111.
-[7]
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 118.
-(pdftex.def)             Requested size: 233.97592pt x 186.09668pt.
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 128.
-(pdftex.def)             Requested size: 233.97592pt x 186.09668pt.
- [8]
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 140.
-(pdftex.def)             Requested size: 233.97592pt x 186.09668pt.
- [9]
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 149.
-(pdftex.def)             Requested size: 233.97592pt x 186.09668pt.
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 157.
-(pdftex.def)             Requested size: 233.97592pt x 186.09668pt.
- [10]
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 231.
+Package epstopdf Info: Source file: <figure/refraction.eps>
+(epstopdf)                    date: 2019-07-22 16:38:45
+(epstopdf)                    size: 1512902 bytes
+(epstopdf)             Output file: <figure/refraction-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-07-22 16:39:00
+(epstopdf)                    size: 26569 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/refraction-eps-conve
+rted-to.pdf figure/refraction.eps>
+(epstopdf)             \includegraphics on input line 236.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figure/refraction-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figure/refraction-eps-converted-to.pdf, id=66, 482.80376pt x 362.35374pt>
+File: figure/refraction-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/refraction-eps-converted-to.pdf>
+Package pdftex.def Info: figure/refraction-eps-converted-to.pdf  used on input 
+line 236.
+(pdftex.def)             Requested size: 337.96033pt x 253.64589pt.
+[6 <./figure/of_cable.jpg>]
+Package epstopdf Info: Source file: <figure/of_propagation.eps>
+(epstopdf)                    date: 2019-07-22 15:21:41
+(epstopdf)                    size: 1524278 bytes
+(epstopdf)             Output file: <figure/of_propagation-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-07-22 15:21:46
+(epstopdf)                    size: 23309 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/of_propagation-eps-c
+onverted-to.pdf figure/of_propagation.eps>
+(epstopdf)             \includegraphics on input line 253.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figure/of_propagation-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figure/of_propagation-eps-converted-to.pdf, id=71, 589.20125pt x 299.1175pt>
+File: figure/of_propagation-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/of_propagation-eps-converted-to.pdf>
+Package pdftex.def Info: figure/of_propagation-eps-converted-to.pdf  used on in
+put line 253.
+(pdftex.def)             Requested size: 353.52347pt x 179.47188pt.
+[7 <./figure/refraction-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figure/attenuation.eps>
+(epstopdf)                    date: 2019-07-22 15:40:42
+(epstopdf)                    size: 1580894 bytes
+(epstopdf)             Output file: <figure/attenuation-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-07-22 15:42:17
+(epstopdf)                    size: 20076 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/attenuation-eps-conv
+erted-to.pdf figure/attenuation.eps>
+(epstopdf)             \includegraphics on input line 265.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figure/attenuation-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figure/attenuation-eps-converted-to.pdf, id=91, 575.14874pt x 421.575pt>
+File: figure/attenuation-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/attenuation-eps-converted-to.pdf>
+Package pdftex.def Info: figure/attenuation-eps-converted-to.pdf  used on input
+ line 265.
+(pdftex.def)             Requested size: 230.05542pt x 168.627pt.
+[8 <./figure/of_propagation-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figure/micro_bending.eps>
+(epstopdf)                    date: 2019-07-22 16:02:08
+(epstopdf)                    size: 1356366 bytes
+(epstopdf)             Output file: <figure/micro_bending-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-07-22 16:03:05
+(epstopdf)                    size: 13540 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/micro_bending-eps-co
+nverted-to.pdf figure/micro_bending.eps>
+(epstopdf)             \includegraphics on input line 275.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figure/micro_bending-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figure/micro_bending-eps-converted-to.pdf, id=104, 599.23875pt x 289.08pt>
+File: figure/micro_bending-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/micro_bending-eps-converted-to.pdf>
+Package pdftex.def Info: figure/micro_bending-eps-converted-to.pdf  used on inp
+ut line 275.
+(pdftex.def)             Requested size: 179.77301pt x 86.72466pt.
+Package epstopdf Info: Source file: <figure/macro_bending.eps>
+(epstopdf)                    date: 2019-07-22 15:50:42
+(epstopdf)                    size: 1494358 bytes
+(epstopdf)             Output file: <figure/macro_bending-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-07-22 15:52:03
+(epstopdf)                    size: 21148 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/macro_bending-eps-co
+nverted-to.pdf figure/macro_bending.eps>
+(epstopdf)             \includegraphics on input line 283.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figure/macro_bending-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figure/macro_bending-eps-converted-to.pdf, id=105, 510.90875pt x 316.18124pt>
+File: figure/macro_bending-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/macro_bending-eps-converted-to.pdf>
+Package pdftex.def Info: figure/macro_bending-eps-converted-to.pdf  used on inp
+ut line 283.
+(pdftex.def)             Requested size: 255.45375pt x 158.09023pt.
+[9 <./figure/attenuation-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
-[11]
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 180.
-(pdftex.def)             Requested size: 233.97592pt x 186.09668pt.
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 185.
-(pdftex.def)             Requested size: 233.97592pt x 186.09668pt.
- [12] [13]
-Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+[10 <./figure/micro_bending-eps-converted-to.pdf> <./figure/macro_bending-eps-c
+onverted-to.pdf>]
+Package epstopdf Info: Source file: <figure/scattering.eps>
+(epstopdf)                    date: 2019-07-22 16:12:39
+(epstopdf)                    size: 1152462 bytes
+(epstopdf)             Output file: <figure/scattering-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-07-22 16:12:45
+(epstopdf)                    size: 10397 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/scattering-eps-conve
+rted-to.pdf figure/scattering.eps>
+(epstopdf)             \includegraphics on input line 300.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figure/scattering-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figure/scattering-eps-converted-to.pdf, id=135, 528.97626pt x 145.54375pt>
+File: figure/scattering-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/scattering-eps-converted-to.pdf>
+Package pdftex.def Info: figure/scattering-eps-converted-to.pdf  used on input 
+line 300.
+(pdftex.def)             Requested size: 211.58675pt x 58.21646pt.
+<figure/attenuation_curve.jpg, id=136, 276.28218pt x 220.57407pt>
+File: figure/attenuation_curve.jpg Graphic file (type jpg)
+<use figure/attenuation_curve.jpg>
+Package pdftex.def Info: figure/attenuation_curve.jpg  used on input line 311.
+(pdftex.def)             Requested size: 221.02603pt x 176.45947pt.
+[11 <./figure/scattering-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figure/ANN.eps>
 (epstopdf)                    date: 2019-07-17 20:16:54
 (epstopdf)                    size: 2348518 bytes
@@ -504,64 +732,63 @@ Package epstopdf Info: Source file: <figure/ANN.eps>
 (epstopdf)                    size: 68420 bytes
 (epstopdf)             Command: <epstopdf --outfile=figure/ANN-eps-converted-to
 .pdf figure/ANN.eps>
-(epstopdf)             \includegraphics on input line 204.
+(epstopdf)             \includegraphics on input line 330.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figure/ANN-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<figure/ANN-eps-converted-to.pdf, id=54, 482.80376pt x 300.12125pt>
+<figure/ANN-eps-converted-to.pdf, id=144, 482.80376pt x 300.12125pt>
 File: figure/ANN-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/ANN-eps-converted-to.pdf>
-Package pdftex.def Info: figure/ANN-eps-converted-to.pdf  used on input line 20
-4.
-(pdftex.def)             Requested size: 289.6845pt x 180.07413pt.
-[14
+Package pdftex.def Info: figure/ANN-eps-converted-to.pdf  used on input line 33
+0.
+(pdftex.def)             Requested size: 193.11807pt x 120.04637pt.
+[12 <./figure/attenuation_curve.jpg>] [13 <./figure/ANN-eps-converted-to.pdf>]
+Chapter 3.
 
-] [15 <./figure/ANN-eps-converted-to.pdf>] [16]
-Chapter 4.
-
-Overfull \hbox (27.82155pt too wide) in paragraph at lines 225--225
+Overfull \hbox (27.82155pt too wide) in paragraph at lines 353--353
 []\OT1/ptm/b/n/17.28 Conventional Sec-ond and Fourth Or-der Mo-ments Method 
  []
 
-[17
+[14
 
-] [18] [19] [20]
-<figure/four-qam-error.jpg, id=94, 483.92558pt x 164.89189pt>
+] [15] [16] [17]
+<figure/four-qam-error.jpg, id=178, 483.92558pt x 164.89189pt>
 File: figure/four-qam-error.jpg Graphic file (type jpg)
 <use figure/four-qam-error.jpg>
-Package pdftex.def Info: figure/four-qam-error.jpg  used on input line 343.
+Package pdftex.def Info: figure/four-qam-error.jpg  used on input line 487.
 (pdftex.def)             Requested size: 435.52899pt x 148.40132pt.
 
-Overfull \hbox (1.90898pt too wide) in paragraph at lines 343--344
+Overfull \hbox (1.90898pt too wide) in paragraph at lines 487--488
  [][] 
  []
 
+[18]
 Package epstopdf Info: Source file: <figure/16qamstandardM2M4error.eps>
-(epstopdf)                    date: 2019-07-19 02:41:13
-(epstopdf)                    size: 541966 bytes
+(epstopdf)                    date: 2019-10-11 11:49:45
+(epstopdf)                    size: 563678 bytes
 (epstopdf)             Output file: <figure/16qamstandardM2M4error-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2019-07-19 02:41:19
-(epstopdf)                    size: 24133 bytes
+(epstopdf)                    date: 2019-10-11 11:50:05
+(epstopdf)                    size: 23210 bytes
 (epstopdf)             Command: <epstopdf --outfile=figure/16qamstandardM2M4err
 or-eps-converted-to.pdf figure/16qamstandardM2M4error.eps>
-(epstopdf)             \includegraphics on input line 350.
+(epstopdf)             \includegraphics on input line 494.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figure/16qamstandardM2M4error-eps-converte
 d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
 lowed
-<figure/16qamstandardM2M4error-eps-converted-to.pdf, id=95, 381.425pt x 301.125
-pt>
+<figure/16qamstandardM2M4error-eps-converted-to.pdf, id=182, 415.5525pt x 301.1
+25pt>
 File: figure/16qamstandardM2M4error-eps-converted-to.pdf Graphic file (type pdf
 )
 <use figure/16qamstandardM2M4error-eps-converted-to.pdf>
 Package pdftex.def Info: figure/16qamstandardM2M4error-eps-converted-to.pdf  us
-ed on input line 350.
-(pdftex.def)             Requested size: 305.1404pt x 240.90031pt.
+ed on input line 494.
+(pdftex.def)             Requested size: 290.88477pt x 210.78606pt.
 Package epstopdf Info: Source file: <figure/qam16_constallation.eps>
 (epstopdf)                    date: 2019-07-19 03:13:49
 (epstopdf)                    size: 1399134 bytes
@@ -571,49 +798,356 @@ o.pdf>
 (epstopdf)                    size: 21568 bytes
 (epstopdf)             Command: <epstopdf --outfile=figure/qam16_constallation-
 eps-converted-to.pdf figure/qam16_constallation.eps>
-(epstopdf)             \includegraphics on input line 360.
+(epstopdf)             \includegraphics on input line 504.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figure/qam16_constallation-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<figure/qam16_constallation-eps-converted-to.pdf, id=96, 465.74pt x 374.39874pt
->
+<figure/qam16_constallation-eps-converted-to.pdf, id=183, 465.74pt x 374.39874p
+t>
 File: figure/qam16_constallation-eps-converted-to.pdf Graphic file (type pdf)
 <use figure/qam16_constallation-eps-converted-to.pdf>
 Package pdftex.def Info: figure/qam16_constallation-eps-converted-to.pdf  used 
-on input line 360.
+on input line 504.
 (pdftex.def)             Requested size: 209.58105pt x 168.47787pt.
-[21 <./figure/four-qam-error.jpg>] [22 <./figure/16qamstandardM2M4error-eps-con
-verted-to.pdf> <./figure/qam16_constallation-eps-converted-to.pdf>] [23]
-(my_report.aux)
+[19 <./figure/four-qam-error.jpg> <./figure/16qamstandardM2M4error-eps-converte
+d-to.pdf>]
+Package epstopdf Info: Source file: <figure/mmsVsSNR.eps>
+(epstopdf)                    date: 2019-10-03 12:32:28
+(epstopdf)                    size: 105231 bytes
+(epstopdf)             Output file: <figure/mmsVsSNR-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-03 12:32:33
+(epstopdf)                    size: 69331 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/mmsVsSNR-eps-convert
+ed-to.pdf figure/mmsVsSNR.eps>
+(epstopdf)             \includegraphics on input line 517.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: There were multiply-defined labels.
 
- ) 
+pdfTeX warning: pdflatex.exe (file ./figure/mmsVsSNR-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figure/mmsVsSNR-eps-converted-to.pdf, id=195, 421.575pt x 316.18124pt>
+File: figure/mmsVsSNR-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/mmsVsSNR-eps-converted-to.pdf>
+Package pdftex.def Info: figure/mmsVsSNR-eps-converted-to.pdf  used on input li
+ne 517.
+(pdftex.def)             Requested size: 295.10048pt x 221.32535pt.
+Package epstopdf Info: Source file: <figure/m2sVsSNR.eps>
+(epstopdf)                    date: 2019-10-03 12:28:24
+(epstopdf)                    size: 93468 bytes
+(epstopdf)             Output file: <figure/m2sVsSNR-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-03 12:28:40
+(epstopdf)                    size: 59327 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/m2sVsSNR-eps-convert
+ed-to.pdf figure/m2sVsSNR.eps>
+(epstopdf)             \includegraphics on input line 523.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figure/m2sVsSNR-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figure/m2sVsSNR-eps-converted-to.pdf, id=196, 421.575pt x 316.18124pt>
+File: figure/m2sVsSNR-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/m2sVsSNR-eps-converted-to.pdf>
+Package pdftex.def Info: figure/m2sVsSNR-eps-converted-to.pdf  used on input li
+ne 523.
+(pdftex.def)             Requested size: 295.10048pt x 221.32535pt.
+[20 <./figure/qam16_constallation-eps-converted-to.pdf>] [21 <./figure/mmsVsSNR
+-eps-converted-to.pdf> <./figure/m2sVsSNR-eps-converted-to.pdf>]
+Chapter 4.
+Package epstopdf Info: Source file: <figure/block.eps>
+(epstopdf)                    date: 2019-10-03 12:39:57
+(epstopdf)                    size: 1237846 bytes
+(epstopdf)             Output file: <figure/block-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-03 12:40:10
+(epstopdf)                    size: 25761 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/block-eps-converted-
+to.pdf figure/block.eps>
+(epstopdf)             \includegraphics on input line 538.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figure/block-eps-converted-to.pdf): PDF in
+clusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figure/block-eps-converted-to.pdf, id=221, 579.16376pt x 119.44624pt>
+File: figure/block-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/block-eps-converted-to.pdf>
+Package pdftex.def Info: figure/block-eps-converted-to.pdf  used on input line 
+538.
+(pdftex.def)             Requested size: 405.41187pt x 83.61179pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22
+
+ <./figure/block-eps-converted-to.pdf>]
+<figure/net.jpg, id=234, 406.51875pt x 112.16907pt>
+File: figure/net.jpg Graphic file (type jpg)
+<use figure/net.jpg>
+Package pdftex.def Info: figure/net.jpg  used on input line 576.
+(pdftex.def)             Requested size: 325.21542pt x 89.73535pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 582--585
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--595
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 596--601
+
+ []
+
+[23 <./figure/net.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 602--611
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--626
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--631
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--642
+
+ []
+
+[24]
+Package epstopdf Info: Source file: <figure/snrVserror_proposed_16.eps>
+(epstopdf)                    date: 2019-10-03 13:40:46
+(epstopdf)                    size: 854126 bytes
+(epstopdf)             Output file: <figure/snrVserror_proposed_16-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2019-10-03 13:40:57
+(epstopdf)                    size: 24464 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/snrVserror_proposed_
+16-eps-converted-to.pdf figure/snrVserror_proposed_16.eps>
+(epstopdf)             \includegraphics on input line 650.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figure/snrVserror_proposed_16-eps-converte
+d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
+lowed
+<figure/snrVserror_proposed_16-eps-converted-to.pdf, id=241, 599.23875pt x 450.
+68375pt>
+File: figure/snrVserror_proposed_16-eps-converted-to.pdf Graphic file (type pdf
+)
+<use figure/snrVserror_proposed_16-eps-converted-to.pdf>
+Package pdftex.def Info: figure/snrVserror_proposed_16-eps-converted-to.pdf  us
+ed on input line 650.
+(pdftex.def)             Requested size: 299.61864pt x 225.34131pt.
+Package epstopdf Info: Source file: <figure/regration_proposed_16.eps>
+(epstopdf)                    date: 2019-10-03 13:32:35
+(epstopdf)                    size: 853826 bytes
+(epstopdf)             Output file: <figure/regration_proposed_16-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2019-10-03 13:33:23
+(epstopdf)                    size: 25856 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/regration_proposed_1
+6-eps-converted-to.pdf figure/regration_proposed_16.eps>
+(epstopdf)             \includegraphics on input line 655.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figure/regration_proposed_16-eps-converted
+-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
+owed
+<figure/regration_proposed_16-eps-converted-to.pdf, id=242, 599.23875pt x 450.6
+8375pt>
+File: figure/regration_proposed_16-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figure/regration_proposed_16-eps-converted-to.pdf>
+Package pdftex.def Info: figure/regration_proposed_16-eps-converted-to.pdf  use
+d on input line 655.
+(pdftex.def)             Requested size: 299.61864pt x 225.34131pt.
+Package epstopdf Info: Source file: <figure/error_compare_16qam.eps>
+(epstopdf)                    date: 2019-07-20 18:03:50
+(epstopdf)                    size: 979966 bytes
+(epstopdf)             Output file: <figure/error_compare_16qam-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2019-07-20 18:05:46
+(epstopdf)                    size: 37063 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/error_compare_16qam-
+eps-converted-to.pdf figure/error_compare_16qam.eps>
+(epstopdf)             \includegraphics on input line 662.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figure/error_compare_16qam-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<figure/error_compare_16qam-eps-converted-to.pdf, id=243, 665.48625pt x 447.672
+5pt>
+File: figure/error_compare_16qam-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/error_compare_16qam-eps-converted-to.pdf>
+Package pdftex.def Info: figure/error_compare_16qam-eps-converted-to.pdf  used 
+on input line 662.
+(pdftex.def)             Requested size: 332.74231pt x 223.8357pt.
+Package epstopdf Info: Source file: <figure/regression_compare_16qam.eps>
+(epstopdf)                    date: 2019-07-20 18:04:37
+(epstopdf)                    size: 974654 bytes
+(epstopdf)             Output file: <figure/regression_compare_16qam-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2019-07-20 18:05:47
+(epstopdf)                    size: 37535 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/regression_compare_1
+6qam-eps-converted-to.pdf figure/regression_compare_16qam.eps>
+(epstopdf)             \includegraphics on input line 667.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figure/regression_compare_16qam-eps-conver
+ted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
+allowed
+<figure/regression_compare_16qam-eps-converted-to.pdf, id=244, 663.47874pt x 44
+5.665pt>
+File: figure/regression_compare_16qam-eps-converted-to.pdf Graphic file (type p
+df)
+<use figure/regression_compare_16qam-eps-converted-to.pdf>
+Package pdftex.def Info: figure/regression_compare_16qam-eps-converted-to.pdf  
+used on input line 667.
+(pdftex.def)             Requested size: 331.73856pt x 222.83195pt.
+Package epstopdf Info: Source file: <figure/64_proposed_error.eps>
+(epstopdf)                    date: 2019-10-03 14:32:57
+(epstopdf)                    size: 44034 bytes
+(epstopdf)             Output file: <figure/64_proposed_error-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-10-03 14:33:12
+(epstopdf)                    size: 10880 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/64_proposed_error-ep
+s-converted-to.pdf figure/64_proposed_error.eps>
+(epstopdf)             \includegraphics on input line 675.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figure/64_proposed_error-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<figure/64_proposed_error-eps-converted-to.pdf, id=245, 586.19pt x 441.65pt>
+File: figure/64_proposed_error-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/64_proposed_error-eps-converted-to.pdf>
+Package pdftex.def Info: figure/64_proposed_error-eps-converted-to.pdf  used on
+ input line 675.
+(pdftex.def)             Requested size: 293.09428pt x 220.82445pt.
+[25 <./figure/snrVserror_proposed_16-eps-converted-to.pdf>] [26 <./figure/regra
+tion_proposed_16-eps-converted-to.pdf> <./figure/error_compare_16qam-eps-conver
+ted-to.pdf>]
+Package epstopdf Info: Source file: <figure/64_proposed_regression.eps>
+(epstopdf)                    date: 2019-10-03 13:36:08
+(epstopdf)                    size: 41817 bytes
+(epstopdf)             Output file: <figure/64_proposed_regression-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2019-10-03 13:36:12
+(epstopdf)                    size: 11030 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/64_proposed_regressi
+on-eps-converted-to.pdf figure/64_proposed_regression.eps>
+(epstopdf)             \includegraphics on input line 680.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figure/64_proposed_regression-eps-converte
+d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
+lowed
+<figure/64_proposed_regression-eps-converted-to.pdf, id=276, 421.575pt x 316.18
+124pt>
+File: figure/64_proposed_regression-eps-converted-to.pdf Graphic file (type pdf
+)
+<use figure/64_proposed_regression-eps-converted-to.pdf>
+Package pdftex.def Info: figure/64_proposed_regression-eps-converted-to.pdf  us
+ed on input line 680.
+(pdftex.def)             Requested size: 252.94695pt x 189.7102pt.
+Package epstopdf Info: Source file: <figure/64_snrVsErrorCompare.eps>
+(epstopdf)                    date: 2019-10-03 13:18:58
+(epstopdf)                    size: 76054 bytes
+(epstopdf)             Output file: <figure/64_snrVsErrorCompare-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2019-10-03 13:19:31
+(epstopdf)                    size: 20634 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/64_snrVsErrorCompare
+-eps-converted-to.pdf figure/64_snrVsErrorCompare.eps>
+(epstopdf)             \includegraphics on input line 687.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figure/64_snrVsErrorCompare-eps-converted-
+to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
+wed
+<figure/64_snrVsErrorCompare-eps-converted-to.pdf, id=277, 421.575pt x 316.1812
+4pt>
+File: figure/64_snrVsErrorCompare-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/64_snrVsErrorCompare-eps-converted-to.pdf>
+Package pdftex.def Info: figure/64_snrVsErrorCompare-eps-converted-to.pdf  used
+ on input line 687.
+(pdftex.def)             Requested size: 252.94695pt x 189.7102pt.
+Package epstopdf Info: Source file: <figure/64_regression_compare.eps>
+(epstopdf)                    date: 2019-10-03 13:29:33
+(epstopdf)                    size: 74937 bytes
+(epstopdf)             Output file: <figure/64_regression_compare-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2019-10-03 13:29:44
+(epstopdf)                    size: 20293 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/64_regression_compar
+e-eps-converted-to.pdf figure/64_regression_compare.eps>
+(epstopdf)             \includegraphics on input line 695.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figure/64_regression_compare-eps-converted
+-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
+owed
+<figure/64_regression_compare-eps-converted-to.pdf, id=278, 421.575pt x 316.181
+24pt>
+File: figure/64_regression_compare-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figure/64_regression_compare-eps-converted-to.pdf>
+Package pdftex.def Info: figure/64_regression_compare-eps-converted-to.pdf  use
+d on input line 695.
+(pdftex.def)             Requested size: 252.94695pt x 189.7102pt.
+[27 <./figure/regression_compare_16qam-eps-converted-to.pdf> <./figure/64_propo
+sed_error-eps-converted-to.pdf>] [28 <./figure/64_proposed_regression-eps-conve
+rted-to.pdf> <./figure/64_snrVsErrorCompare-eps-converted-to.pdf> <./figure/64_
+regression_compare-eps-converted-to.pdf>]
+Chapter 5.
+[29
+
+] [30
+
+] [31] (my_report.aux) ) 
 Here is how much of TeX's memory you used:
- 3345 strings out of 492895
- 50802 string characters out of 3123735
- 128724 words of memory out of 3000000
- 7163 multiletter control sequences out of 15000+200000
- 36807 words of font info for 76 fonts, out of 3000000 for 9000
+ 4797 strings out of 492895
+ 74172 string characters out of 3123735
+ 158748 words of memory out of 3000000
+ 8558 multiletter control sequences out of 15000+200000
+ 37314 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,32p,1846b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
-}<C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmex10.pfb><C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb><C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/asado/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/asado/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/asado/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/asado/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/asado/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/asa
-do/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_report.pdf (24 pages, 378205 bytes).
+ 41i,12n,37p,1869b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fonts
+/enc/dvips/base/8r.enc}<C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmex10.pfb><C:/Users/asado/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/asado/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/asado/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
+sers/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C
+:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb
+><C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a
+.pfb><C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/ut
+mr8a.pfb><C:/Users/asado/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on my_report.pdf (41 pages, 883026 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
+ 355 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
